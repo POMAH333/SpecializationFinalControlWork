@@ -7,7 +7,6 @@ CREATE SCHEMA HumanFriends;
 
 --    - Создать таблицы, соответствующие иерархии из вашей диаграммы классов.
 CREATE TABLE Dogs (
-    ID SERIAL PRIMARY KEY,
     Name VARCHAR(30) NOT NULL,
     BirthDate DATE,
     Commands VARCHAR(255),
@@ -18,7 +17,6 @@ CREATE TABLE Dogs (
 );
 
 CREATE TABLE Cats (
-    ID SERIAL PRIMARY KEY,
     Name VARCHAR(30) NOT NULL,
     BirthDate DATE,
     Commands VARCHAR(255),
@@ -28,7 +26,6 @@ CREATE TABLE Cats (
 );
 
 CREATE TABLE Hamsters (
-    ID SERIAL PRIMARY KEY,
     Name VARCHAR(30) NOT NULL,
     BirthDate DATE,
     Commands VARCHAR(255),
@@ -38,7 +35,6 @@ CREATE TABLE Hamsters (
 );
 
 CREATE TABLE Horses (
-    ID SERIAL PRIMARY KEY,
     Name VARCHAR(30) NOT NULL,
     BirthDate DATE,
     Commands VARCHAR(255),
@@ -48,7 +44,6 @@ CREATE TABLE Horses (
 );
 
 CREATE TABLE Camels (
-    ID SERIAL PRIMARY KEY,
     Name VARCHAR(30) NOT NULL,
     BirthDate DATE,
     Commands VARCHAR(255),
@@ -58,7 +53,6 @@ CREATE TABLE Camels (
 );
 
 CREATE TABLE Donkeys (
-    ID SERIAL PRIMARY KEY,
     Name VARCHAR(30) NOT NULL,
     BirthDate DATE,
     Commands VARCHAR(255),
